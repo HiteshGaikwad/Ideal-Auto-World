@@ -1,0 +1,23 @@
+.mainlayout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Takes at least the full height of the screen */
+}
+
+/* 3. The Middle Section (Outlet) */
+.main-content {
+    flex-grow: 1;
+    /* This forces the content to expand and push the footer down */
+}
+
+/* 4. Optional: Header and Footer styles */
+header {
+    /* Set your header height if needed */
+    flex-shrink: 0;
+}
+
+footer {
+    /* Set your footer height if needed */
+    flex-shrink: 0;
+}

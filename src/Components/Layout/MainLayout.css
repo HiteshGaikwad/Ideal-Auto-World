@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding: 0px 50px;
+    padding: 0px 20px;
     /* Takes at least the full height of the screen */
 }
 
@@ -21,4 +21,10 @@ header {
 footer {
     /* Set your footer height if needed */
     flex-shrink: 0;
+}
+
+@media (min-width: 1200px) {
+    .mainlayout-container {
+        padding: 0px 50px;
+    }
 }

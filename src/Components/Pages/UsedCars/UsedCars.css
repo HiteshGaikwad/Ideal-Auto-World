@@ -107,8 +107,8 @@
 
 .uc_hero_overlay h1 {
     margin: 0;
-    font-size: 48px;
-    font-weight: 900;
+    font-size: 46px;
+    font-weight: 600;
     line-height: 1.1;
     max-width: 700px;
     background: linear-gradient(120deg, #ffffff, #c9a84c);
@@ -231,7 +231,7 @@
 
 .uc_categories_grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     max-width: 1100px;
     margin: 0 auto;

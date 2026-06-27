@@ -18,11 +18,11 @@ const carCategories = [
         desc: 'Spacious, powerful & ready for every adventure.',
         icon: '🚙',
     },
-    {
-        title: 'Premium Cars',
-        desc: 'Luxury, performance & style in every detail.',
-        icon: '✨',
-    },
+    // {
+    //     title: 'Premium Cars',
+    //     desc: 'Luxury, performance & style in every detail.',
+    //     icon: '✨',
+    // },
 ];
 
 const whyChoose = [
@@ -48,7 +48,7 @@ const whyChoose = [
     },
     {
         icon: '🤝',
-        title: 'Trusted by 500+ Customers',
+        title: 'Trusted by 300+ Customers',
         desc: 'Years of trust, quality service and happy customers across the region.',
     },
     {
@@ -116,17 +116,17 @@ const UsedCars = () => {
                     <p>Quality you can trust, variety you can choose, and service you can depend on.</p>
                     <div className="uc_hero_stats">
                         <div className="stat_item">
-                            <h3>500+</h3>
+                            <h3>300+</h3>
                             <span>Happy Customers</span>
                         </div>
                         <div className="stat_divider"></div>
                         <div className="stat_item">
-                            <h3>1000+</h3>
+                            <h3>300+</h3>
                             <span>Cars Sold</span>
                         </div>
                         <div className="stat_divider"></div>
                         <div className="stat_item">
-                            <h3>10+</h3>
+                            <h3>17+</h3>
                             <span>Years of Trust</span>
                         </div>
                     </div>
@@ -172,7 +172,7 @@ const UsedCars = () => {
                             <div className="category_icon">{cat.icon}</div>
                             <h3>{cat.title}</h3>
                             <p>{cat.desc}</p>
-                            <span className="category_link">View Cars →</span>
+                            {/* <span className="category_link">View Cars →</span> */}
                         </div>
                     ))}
                 </div>

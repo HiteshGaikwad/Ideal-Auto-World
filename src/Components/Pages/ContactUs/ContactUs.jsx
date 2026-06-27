@@ -1,6 +1,7 @@
 import './ContactUs.css';
 import { useState, useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import contactLogo from '../../../assets/Images/Contact us new copy.jpg'
 
 const ContactUs = () => {
     const formRef = useRef();
@@ -35,13 +36,13 @@ const ContactUs = () => {
         {
             icon: '📞',
             title: 'Call Us',
-            lines: ['+91 98765 43210', '+91 91234 56789'],
-            sub: 'Mon - Sat, 9:00 AM to 7:00 PM',
+            lines: ['+91 97641 99974'],
+            sub: 'Mon - Sat, 10:00 AM to 7:00 PM',
         },
         {
             icon: '✉️',
             title: 'Email Us',
-            lines: ['info@idealautoworld.com', 'support@idealautoworld.com'],
+            lines: ['idealautoworldinfo@gmail.com'],
             sub: 'We reply within 24 hours',
         },
         {
@@ -53,7 +54,7 @@ const ContactUs = () => {
         {
             icon: '🕐',
             title: 'Working Hours',
-            lines: ['Mon - Sat: 9:00 AM – 7:00 PM', 'Sunday: 10:00 AM – 4:00 PM'],
+            lines: ['Mon - Sat: 10:00 AM – 7:00 PM'],
             sub: 'We are here to help you',
         },
     ];
@@ -122,10 +123,10 @@ const ContactUs = () => {
 
         try {
             await emailjs.sendForm(
-                'YOUR_SERVICE_ID',    // 🔁 Replace with your EmailJS Service ID
-                'YOUR_TEMPLATE_ID',   // 🔁 Replace with your EmailJS Template ID
+                'YOUR_SERVICE_ID',
+                'YOUR_TEMPLATE_ID',
                 formRef.current,
-                'YOUR_PUBLIC_KEY'     // 🔁 Replace with your EmailJS Public Key
+                'YOUR_PUBLIC_KEY'
             );
 
             setStatus({ loading: false, success: true, error: false });
@@ -137,7 +138,6 @@ const ContactUs = () => {
                 message: '',
             });
 
-            // Auto reset success message after 5 seconds
             setTimeout(() => {
                 setStatus({ loading: false, success: false, error: false });
             }, 5000);
@@ -153,7 +153,6 @@ const ContactUs = () => {
     useEffect(() => {
         const el = formContainerRef?.current;
 
-        // Find the nearest scrollable ancestor
         function findScrollableAncestor(node) {
             if (!node) return window;
             let parent = node;
@@ -182,7 +181,6 @@ const ContactUs = () => {
             }
         };
 
-        // delay slightly so DOM updates first
         requestAnimationFrame(() => setTimeout(doScroll, 50));
     }, []);
 
@@ -192,10 +190,16 @@ const ContactUs = () => {
 
             {/* ── Hero Section ── */}
             <section className="contact_hero">
-                <div className="contact_hero_bg">
-                    <div className="contact_hero_pattern"></div>
-                </div>
-                <div className="contact_hero_content">
+
+                {/* Background Image — same pattern as UsedCars */}
+                <img
+                    src={contactLogo}
+                    alt="Contact Us"
+                    className="contact_hero_img"
+                />
+
+                {/* Overlay with content — same pattern as UsedCars */}
+                <div className="contact_hero_overlay">
                     <span className="contact_hero_badge">Contact Us</span>
                     <h1>We Are Here to<br />Help You.</h1>
                     <p>
@@ -208,6 +212,7 @@ const ContactUs = () => {
                         <span>💬 WhatsApp Available</span>
                     </div>
                 </div>
+
             </section>
 
             {/* ── Contact Info Cards ── */}
@@ -451,8 +456,10 @@ const ContactUs = () => {
                                     <span>💬</span>
                                     <p>WhatsApp</p>
                                 </a>
-                                <a href="mailto:info@idealautoworld.com"
-                                    className="social_contact_item gmail">
+                                <a
+                                    href="mailto:info@idealautoworld.com"
+                                    className="social_contact_item gmail"
+                                >
                                     <span>✉️</span>
                                     <p>Gmail</p>
                                 </a>

@@ -24,7 +24,7 @@
 
 .hero_image {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     object-fit: cover;
     object-position: center;
     display: block;
@@ -56,8 +56,8 @@
 
 .hero_overlay h2 {
     margin: 0;
-    font-size: 48px;
-    font-weight: 900;
+    font-size: 46px;
+    font-weight: 600;
     letter-spacing: -0.5px;
     line-height: 1.1;
     background: linear-gradient(120deg, #ffffff, #c9a84c);

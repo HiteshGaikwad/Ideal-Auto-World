@@ -70,24 +70,24 @@ const claimSteps = [
         title: 'Inform Us Immediately',
         desc: 'Call or message us right after an incident and we will guide you through the next steps.',
     },
-    {
-        number: '02',
-        title: 'Document the Damage',
-        desc: 'Take clear photos of the damage and collect all relevant details at the spot.',
-    },
-    {
-        number: '03',
-        title: 'We File the Claim',
-        desc: 'Our team handles all paperwork and coordinates directly with the insurance company for you.',
-    },
-    {
-        number: '04',
-        title: 'Get Your Car Fixed',
-        desc: 'Your car gets repaired at a trusted garage and you drive back worry-free.',
-    },
+    // {
+    //     number: '02',
+    //     title: 'Document the Damage',
+    //     desc: 'Take clear photos of the damage and collect all relevant details at the spot.',
+    // },
+    // {
+    //     number: '03',
+    //     title: 'We File the Claim',
+    //     desc: 'Our team handles all paperwork and coordinates directly with the insurance company for you.',
+    // },
+    // {
+    //     number: '04',
+    //     title: 'Get Your Car Fixed',
+    //     desc: 'Your car gets repaired at a trusted garage and you drive back worry-free.',
+    // },
 ];
 
-const partners = ['HDFC Ergo', 'Bajaj Allianz', 'ICICI Lombard', 'New India', 'Tata AIG', 'Reliance General'];
+const partners = ['HDFC Ergo', 'Bajaj Allianz', 'ICICI Lombard', 'New India', 'Tata AIG', 'Reliance General', 'Future Generali','IFFCO-TOKIO'];
 
 
 const Insurance = () => {
@@ -302,8 +302,8 @@ const Insurance = () => {
                         for your car at the right price.
                     </p>
                     <div className="ins_cta_buttons">
-                        <button className="ins_cta_primary">📞 Talk to an Expert</button>
-                        <button className="ins_cta_secondary">💬 WhatsApp Us</button>
+                        <button className="ins_cta_primary">📞 Talk to us</button>
+                        {/* <button className="ins_cta_secondary">💬 WhatsApp Us</button> */}
                     </div>
                 </div>
             </section>

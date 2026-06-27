@@ -1,6 +1,7 @@
 import './AboutUs.css';
 import logo from '../../../assets/Images/ideal logo.jpg';
 import { useEffect, useRef } from 'react';
+import aboutUsLogo from '../../../assets/Images/About us new copy.jpg'
 
 const values = [
     {
@@ -37,27 +38,27 @@ const values = [
 
 const milestones = [
     {
-        year: '2005',
+        year: '2009',
         title: 'Our Beginning',
         desc: 'Ideal Auto World was founded with a single showroom and a big dream — to make car buying honest and simple.',
     },
     {
-        year: '2010',
+        year: '2011',
         title: 'Finance Services Added',
         desc: 'We partnered with leading banks and NBFCs to offer easy car loan options to our growing customer base.',
     },
     {
-        year: '2015',
+        year: '2011',
         title: 'Insurance Division Launched',
         desc: 'We expanded our services to include complete insurance guidance, making us a one-stop car destination.',
     },
     {
-        year: '2020',
-        title: '500+ Happy Customers',
+        year: '2016',
+        title: '300+ Happy Customers',
         desc: 'A proud milestone — over 500 families trusted us with their car buying journey across the region.',
     },
     {
-        year: '2023',
+        year: '2024',
         title: 'Digital Expansion',
         desc: 'We launched our digital presence to reach more customers and make the car buying process even more accessible.',
     },
@@ -69,9 +70,9 @@ const milestones = [
 ];
 
 const stats = [
-    { number: '20+', label: 'Years of Experience' },
-    { number: '1000+', label: 'Cars Sold' },
-    { number: '500+', label: 'Happy Customers' },
+    { number: '15+', label: 'Years of Experience' },
+    { number: '300+', label: 'Cars Sold' },
+    { number: '300+', label: 'Happy Customers' },
     { number: '8+', label: 'Finance Partners' },
 ];
 
@@ -109,7 +110,6 @@ const AboutUs = () => {
     useEffect(() => {
         const el = formContainerRef?.current;
 
-        // Find the nearest scrollable ancestor
         function findScrollableAncestor(node) {
             if (!node) return window;
             let parent = node;
@@ -138,7 +138,6 @@ const AboutUs = () => {
             }
         };
 
-        // delay slightly so DOM updates first
         requestAnimationFrame(() => setTimeout(doScroll, 50));
     }, []);
 
@@ -147,10 +146,16 @@ const AboutUs = () => {
 
             {/* ── Hero Section ── */}
             <section className="about_hero">
-                <div className="about_hero_bg">
-                    <div className="about_hero_pattern"></div>
-                </div>
-                <div className="about_hero_content">
+
+                {/* Background Image — same pattern as UsedCars */}
+                <img
+                    src={aboutUsLogo}
+                    alt="About Us"
+                    className="about_hero_img"
+                />
+
+                {/* Overlay with content — same pattern as UsedCars */}
+                <div className="about_hero_overlay">
                     <span className="about_hero_badge">About Us</span>
                     <h1>We Are More Than<br />Just a Car Dealership.</h1>
                     <p>
@@ -167,6 +172,7 @@ const AboutUs = () => {
                         ))}
                     </div>
                 </div>
+
             </section>
 
             {/* ── Our Story Section ── */}
@@ -180,8 +186,8 @@ const AboutUs = () => {
                         <div className="about_story_card">
                             <span>🏆</span>
                             <div>
-                                <h4>Est. 2005</h4>
-                                <p>Trusted for over 20 years</p>
+                                <h4>Est. 2009</h4>
+                                <p>Trusted for over 17 years</p>
                             </div>
                         </div>
                         <div className="about_story_card">
@@ -310,30 +316,6 @@ const AboutUs = () => {
                 </div>
             </section>
 
-            {/* ── Team Section ── */}
-            {/* <section className="about_team_section">
-                <div className="section_header">
-                    <span className="section_tag">The People Behind It</span>
-                    <h2>Meet Our Team</h2>
-                    <p>
-                        A passionate team dedicated to making your car buying
-                        experience smooth, honest and enjoyable.
-                    </p>
-                </div>
-                <div className="about_team_grid">
-                    {team.map((member, index) => (
-                        <div className="about_team_card" key={index}>
-                            <div className="team_avatar">
-                                <span>{member.emoji}</span>
-                            </div>
-                            <h4>{member.name}</h4>
-                            <span className="team_role">{member.role}</span>
-                            <p>{member.desc}</p>
-                        </div>
-                    ))}
-                </div>
-            </section> */}
-
             {/* ── Why Choose Us ── */}
             <section className="about_why_section">
                 <div className="about_why_inner">
@@ -401,7 +383,6 @@ const AboutUs = () => {
                         better, we are here to make it the best experience of your life.
                     </p>
                     <div className="about_cta_buttons">
-                        {/* <button className="about_cta_primary">🚗 Explore Our Cars</button> */}
                         <button className="about_cta_secondary">📞 Contact Us</button>
                     </div>
                 </div>

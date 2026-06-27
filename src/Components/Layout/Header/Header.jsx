@@ -9,11 +9,11 @@ const Header = () => {
     const location = useLocation();
 
     const menuItems = [
-        { name: 'Home',       path: '/' },
-        { name: 'Used Cars',  path: '/used-cars' },
-        { name: 'Insurance',  path: '/insurance' },
-        { name: 'Finance',    path: '/finance' },
-        { name: 'About Us',   path: '/about-us' },
+        { name: 'Home', path: '/' },
+        { name: 'Used Cars', path: '/used-cars' },
+        { name: 'Insurance', path: '/insurance' },
+        { name: 'Finance', path: '/finance' },
+        { name: 'About Us', path: '/about-us' },
         { name: 'Contact Us', path: '/contact-us' },
     ];
 
@@ -32,8 +32,9 @@ const Header = () => {
             >
                 <img src={logo} className="header_logo" alt="Ideal Auto World Logo" />
                 <div className="brand_text">
-                    <h1>Ideal Auto World</h1>
-                    <span>Your Trusted Car Partner</span>
+                    <h1>IDEAL AUTO WORLD</h1>
+                    {/* <span>Your Trusted Car Partner</span> */}
+                    <span>Smart People Drive Pre-Owned</span>
                 </div>
             </div>
 

@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="footer_column first_container">
                 <div className="logo_company_name">
                     <img src={logo} alt="Ideal Auto World logo" />
-                    <h2>Ideal Auto World</h2>
+                    <h2>IDEAL AUTO WORLD</h2>
                 </div>
 
                 <p>
@@ -22,13 +22,13 @@ const Footer = () => {
                 </p>
 
                 <div className="social_icons_container">
-                    <a href="#" aria-label="Instagram">
+                    <a href={`https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=r5uml4c`} target='_blank' aria-label="Instagram">
                         <img src={instaLogo} alt="Instagram" />
                     </a>
-                    <a href="#" aria-label="Facebook">
+                    <a href={`https://www.facebook.com/share/1B1377GLZN/`} target='_blank' aria-label="Facebook">
                         <img src={facebookLogo} alt="Facebook" />
                     </a>
-                    <a href="#" aria-label="WhatsApp">
+                    <a href={`https://wa.me/message/Y2CLBUSFJUICD1`} target='_blank' aria-label="WhatsApp">
                         <img src={whatsAppLogo} alt="WhatsApp" />
                     </a>
                     <a href="#" aria-label="Gmail">
@@ -45,8 +45,8 @@ const Footer = () => {
                     <li><a href="/used-cars">Used Cars</a></li>
                     <li><a href="/insurance">Insurance</a></li>
                     <li><a href="/finance">Finance</a></li>
-                    <li><a href="/about">About Us</a></li>
-                    <li><a href="/contact">Contact Us</a></li>
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
                 </ul>
             </div>
 

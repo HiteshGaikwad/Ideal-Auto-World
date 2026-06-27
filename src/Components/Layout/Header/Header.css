@@ -72,7 +72,8 @@
     line-height: 1.2;
 
     /* Gold to green gradient text */
-    background: linear-gradient(120deg, #1a4d30, #2d7a4f, #b8962e);
+    /* background: linear-gradient(120deg, #1a4d30, #2d7a4f, #b8962e); */
+    background: rgb(239, 63, 63);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -83,8 +84,8 @@
     font-weight: 600;
     letter-spacing: 1.8px;
     text-transform: uppercase;
-    color: #b8962e;
-    opacity: 0.85;
+    color: black;
+    /* opacity: 0.85; */
 }
 
 /* ══════════════════════════════════════

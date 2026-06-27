@@ -64,12 +64,6 @@ const loanSteps = [
 
 const emiPlans = [
     {
-        tenure: '12 Months',
-        label: 'Short Term',
-        desc: 'Pay off quickly with higher EMIs and save on total interest.',
-        color: 'plan_green',
-    },
-    {
         tenure: '24 Months',
         label: 'Balanced',
         desc: 'A perfect balance between EMI amount and loan duration.',
@@ -88,6 +82,18 @@ const emiPlans = [
         desc: 'Minimum EMI burden for maximum financial flexibility.',
         color: 'plan_purple',
     },
+    {
+        tenure: '60 Months',
+        label: 'Long Term',
+        desc: 'Minimum EMI burden for maximum financial flexibility.',
+        color: 'plan_red',
+    },
+    {
+        tenure: '72 Months',
+        label: 'Long Term',
+        desc: 'Minimum EMI burden for maximum financial flexibility.',
+        color: 'plan_green',
+    },
 ];
 
 const partners = [
@@ -97,8 +103,8 @@ const partners = [
 ];
 
 const stats = [
-    { number: '₹50Cr+', label: 'Loans Disbursed' },
-    { number: '1000+', label: 'Cars Financed' },
+    { number: '₹20Cr+', label: 'Loans Disbursed' },
+    { number: '300+', label: 'Cars Financed' },
     { number: '8+', label: 'Finance Partners' },
     { number: '98%', label: 'Approval Rate' },
 ];
@@ -316,13 +322,13 @@ const Finance = () => {
                     <h2>We Work With India's Top Banks & NBFCs</h2>
                     <p>Multiple partners mean more options and better rates for you.</p>
                 </div>
-                <div className="fin_partners_grid">
+                {/* <div className="fin_partners_grid">
                     {partners.map((partner, index) => (
                         <div className="fin_partner_pill" key={index}>
                             🏦 {partner}
                         </div>
                     ))}
-                </div>
+                </div> */}
             </section>
 
             {/* ── CTA Section ── */}
@@ -335,7 +341,7 @@ const Finance = () => {
                         tailored to your needs and budget — quickly and transparently.
                     </p>
                     <div className="fin_cta_buttons">
-                        <button className="fin_cta_primary">📞 Talk to Finance Expert</button>
+                        <button className="fin_cta_primary">📞 Talk to us</button>
                         {/* <button className="fin_cta_secondary">📊 Check Eligibility</button> */}
                     </div>
                 </div>

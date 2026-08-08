@@ -4,6 +4,7 @@ import instaLogo from '../../../assets/socialIcons/instagram.png';
 import whatsAppLogo from '../../../assets/socialIcons/whatsapp.png';
 import facebookLogo from '../../../assets/socialIcons/facebook.png';
 import gmailLogo from '../../../assets/socialIcons/GmailLogo.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -41,12 +42,14 @@ const Footer = () => {
             <div className="footer_column menu_list_container">
                 <h3>Quick Links</h3>
                 <ul className="menu_container">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/used-cars">Used Cars</a></li>
-                    <li><a href="/insurance">Insurance</a></li>
-                    <li><a href="/finance">Finance</a></li>
-                    <li><a href="/about-us">About Us</a></li>
-                    <li><a href="/contact-us">Contact Us</a></li>
+                    {/* <li><a href="/">Home</a></li> */}
+                    <li><Link to="/">Home</Link></li>
+                    {/* <li><a href="/used-cars">Used Cars</a></li> */}
+                    <li><Link to="/used-cars">Used Cars</Link></li>
+                    <li><Link to="/insurance">Insurance</Link></li>
+                    <li><Link to="/finance">Finance</Link></li>
+                    <li><Link to="/about-us">About Us</Link></li>
+                    <li><Link to="/contact-us">Contact Us</Link></li>
                 </ul>
             </div>
 
@@ -54,8 +57,8 @@ const Footer = () => {
             <div className="footer_column">
                 <h3>Legal</h3>
                 <ul className="menu_container">
-                    <li><a href="/privacy-policy">Privacy Policy</a></li>
-                    <li><a href="/terms">Terms & Conditions</a></li>
+                    <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                    <li><Link to="/terms">Terms & Conditions</Link></li>
                 </ul>
             </div>
         </footer>

@@ -1,8 +1,9 @@
-import posterLogo from '../../../assets/Images/Ideal Auto contact us.jpg';
+// import posterLogo from '../../../assets/Images/Ideal Auto contact us.jpg';
+import posterLogo from '../../../assets/Images/Home Page.jpg';
 import './Home.css';
 import usedCars from '../../../assets/Images/Used car.jpg';
-import carInsurance from '../../../assets/Images/Ideal Auto INSURANCE.jpg';
-import financeCars from '../../../assets/Images/ideal finance.jpg';
+import carInsurance from '../../../assets/Images/Ideal Auto insurance (2).jpg';
+import financeCars from '../../../assets/Images/Car Loan New sign1.jpg';
 import { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -22,7 +23,7 @@ const Home = () => {
         {
             image: carInsurance,
             alt: 'car insurance image',
-            label: 'Car Insurance',
+            label: 'Insurance',
             route: '/insurance',
         },
         {
@@ -75,7 +76,7 @@ const Home = () => {
                 <img src={posterLogo} alt="banner" className="hero_image" />
                 <div className="hero_overlay">
                     <h2>Drive Your Dream</h2>
-                    <p>Premium Used Cars · Insurance · Finance — All in One Place</p>
+                    <p>Quality Used Cars · Insurance · Finance — All in One Place</p>
                 </div>
             </div>
 

@@ -111,9 +111,8 @@ const UsedCars = () => {
             <section className="uc_hero">
                 <img src={usedCarHero} alt="Pre-owned cars" className="uc_hero_img" />
                 <div className="uc_hero_overlay">
-                    <span className="uc_hero_badge">Pre-Owned Cars</span>
                     <h1>Your Journey to the Perfect Car Starts with Trust.</h1>
-                    <p>Quality you can trust, variety you can choose, and service you can depend on.</p>
+                    {/* <span className="uc_hero_badge">Pre-Owned Cars</span> */}
                     <div className="uc_hero_stats">
                         <div className="stat_item">
                             <h3>300+</h3>
@@ -126,10 +125,11 @@ const UsedCars = () => {
                         </div>
                         <div className="stat_divider"></div>
                         <div className="stat_item">
-                            <h3>17+</h3>
+                            <h3>15+</h3>
                             <span>Years of Trust</span>
                         </div>
                     </div>
+                    <p>Quality you can trust, variety you can choose, and service you can depend on.</p>
                 </div>
             </section>
 

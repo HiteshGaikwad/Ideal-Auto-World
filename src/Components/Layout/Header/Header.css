@@ -41,20 +41,20 @@
 }
 
 .header_logo {
-    width: 58px;
-    height: 58px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
     border-radius: 14px;
-    box-shadow:
+    /* box-shadow:
         0 4px 16px rgba(45, 122, 79, 0.2),
-        0 0 0 3px rgba(184, 150, 46, 0.15);
+        0 0 0 3px rgba(184, 150, 46, 0.15); */
     transition: all 0.4s ease;
 }
 
 .logo_heading_div:hover .header_logo {
-    box-shadow:
+    /* box-shadow:
         0 6px 24px rgba(45, 122, 79, 0.3),
-        0 0 0 4px rgba(184, 150, 46, 0.3);
+        0 0 0 4px rgba(184, 150, 46, 0.3); */
     transform: scale(1.05);
 }
 

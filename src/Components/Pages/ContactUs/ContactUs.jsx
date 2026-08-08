@@ -36,7 +36,8 @@ const ContactUs = () => {
         {
             icon: '📞',
             title: 'Call Us',
-            lines: ['+91 97641 99974'],
+            // lines: ['+91 97641 99974'],'
+            lines: ['Coming Soon...'],
             sub: 'Mon - Sat, 10:00 AM to 7:00 PM',
         },
         {
@@ -48,7 +49,8 @@ const ContactUs = () => {
         {
             icon: '📍',
             title: 'Visit Us',
-            lines: ['123, Auto World Road,', 'Near City Mall, Mumbai - 400001'],
+            // lines: ['123, Auto World Road,', 'Near City Mall, Mumbai - 400001'],
+            lines: ['Coming Soon...'],
             sub: 'Open Monday to Saturday',
         },
         {

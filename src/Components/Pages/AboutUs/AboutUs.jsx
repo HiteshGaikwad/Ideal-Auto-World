@@ -156,13 +156,13 @@ const AboutUs = () => {
 
                 {/* Overlay with content — same pattern as UsedCars */}
                 <div className="about_hero_overlay">
-                    <span className="about_hero_badge">About Us</span>
-                    <h1>We Are More Than<br />Just a Car Dealership.</h1>
-                    <p>
+                    {/* <span className="about_hero_badge">About Us</span>
+                    <h1>We Are More Than<br />Just a Car Dealership.</h1> */}
+                    {/* <p>
                         We are your trusted partner through every step of your
                         car buying journey — from choosing the right car to
                         finance, insurance and beyond.
-                    </p>
+                    </p> */}
                     <div className="about_hero_stats">
                         {stats.map((stat, index) => (
                             <div className="about_stat_item" key={index}>

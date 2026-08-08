@@ -1,5 +1,6 @@
 import './Footer.css';
-import logo from '../../../assets/Images/ideal logo.jpg';
+// import logo from '../../../assets/Images/ideal logo.jpg';
+import logo from '../../../assets/Images/ideal logo copy.png';
 import instaLogo from '../../../assets/socialIcons/instagram.png';
 import whatsAppLogo from '../../../assets/socialIcons/whatsapp.png';
 import facebookLogo from '../../../assets/socialIcons/facebook.png';
@@ -13,7 +14,10 @@ const Footer = () => {
             <div className="footer_column first_container">
                 <div className="logo_company_name">
                     <img src={logo} alt="Ideal Auto World logo" />
-                    <h2>IDEAL AUTO WORLD</h2>
+                    <div className="brand_text">
+                        <h2>IDEAL AUTO WORLD</h2>
+                        <span>Smart People Drive Pre-Owned</span>
+                    </div>
                 </div>
 
                 <p>

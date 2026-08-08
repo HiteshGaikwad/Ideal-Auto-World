@@ -33,9 +33,9 @@ const Header = () => {
             >
                 <img src={logo} className="header_logo" alt="Ideal Auto World Logo" />
                 <div className="brand_text">
-                    <h1>IDEAL AUTO WORLD</h1>
+                    {/* <h1>IDEAL AUTO WORLD</h1> */}
                     {/* <span>Your Trusted Car Partner</span> */}
-                    <span>Smart People Drive Pre-Owned</span>
+                    {/* <span>Smart People Drive Pre-Owned</span> */}
                 </div>
             </div>
 

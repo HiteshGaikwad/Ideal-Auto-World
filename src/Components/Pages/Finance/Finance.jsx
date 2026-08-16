@@ -1,6 +1,6 @@
 import './Finance.css';
 // import financeHero from '../../../assets/Images/ideal finance.jpg';
-import financeHero from '../../../assets/Images/Car Loan New sign1.jpg';
+import financeHero from '../../../assets/Images/Car Loan New sign copy.jpg';
 import { useEffect, useRef } from 'react';
 
 const financeFeatures = [

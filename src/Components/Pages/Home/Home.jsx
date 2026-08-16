@@ -1,8 +1,8 @@
 // import posterLogo from '../../../assets/Images/Ideal Auto contact us.jpg';
-import posterLogo from '../../../assets/Images/Home Page.jpg';
+import posterLogo from '../../../assets/Images/Home Page copy (1).jpg';
 import './Home.css';
 import usedCars from '../../../assets/Images/Used car.jpg';
-import carInsurance from '../../../assets/Images/Ideal Auto insurance (2).jpg';
+import carInsurance from '../../../assets/Images/Car INsurance.jpg';
 import financeCars from '../../../assets/Images/Car Loan New sign1.jpg';
 import { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';

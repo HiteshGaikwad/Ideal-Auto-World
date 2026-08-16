@@ -1,6 +1,6 @@
 import './Insurance.css';
 // import carInsurance from '../../../assets/Images/Ideal Auto INSURANCE.jpg';
-import carInsurance from '../../../assets/Images/Ideal Auto insurance (2).jpg';
+import carInsurance from '../../../assets/Images/Car INsurance.jpg';
 import { useEffect, useRef } from 'react';
 
 const insuranceTypes = [

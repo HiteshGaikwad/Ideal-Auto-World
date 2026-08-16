@@ -20,14 +20,14 @@
     position: sticky;
 
     /* Subtle gold-green bottom border */
-    border-image: linear-gradient(
+    /* border-image: linear-gradient(
         90deg,
         transparent,
         #b8962e,
         #2d7a4f,
         #b8962e,
         transparent
-    ) 1;
+    ) 1; */
 }
 
 /* ══════════════════════════════════════

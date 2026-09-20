@@ -1,5 +1,6 @@
 // import posterLogo from '../../../assets/Images/Ideal Auto contact us.jpg';
-import posterLogo from '../../../assets/Images/Home Page copy (1).jpg';
+// import posterLogo from '../../../assets/Images/Home Page copy (1).jpg';
+import posterLogo from '../../../assets/Images/New Home PG Image copy.jpg';
 import './Home.css';
 import usedCars from '../../../assets/Images/Used car.jpg';
 import carInsurance from '../../../assets/Images/Car INsurance.jpg';

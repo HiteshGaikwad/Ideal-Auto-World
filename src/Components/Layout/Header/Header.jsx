@@ -1,6 +1,7 @@
 import './Header.css';
 // import logo from '../../../assets/Images/ideal logo.jpg';
-import logo from '../../../assets/Images/ideal logo copy.png';
+// import logo from '../../../assets/Images/ideal logo copy.png';
+import logo from '../../../assets/Images/ideal logo 00110.jpg';
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 

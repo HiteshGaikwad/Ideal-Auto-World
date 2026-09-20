@@ -41,9 +41,11 @@
 }
 
 .header_logo {
-    width: 80px;
-    height: 80px;
-    /* object-fit: cover; */
+    /* width: 80px;
+    height: 80px; */
+    width: 100px;
+    height: 78px;
+    object-fit: cover;
     border-radius: 14px;
     /* box-shadow:
         0 4px 16px rgba(45, 122, 79, 0.2),

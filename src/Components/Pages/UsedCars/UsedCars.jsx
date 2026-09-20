@@ -1,6 +1,7 @@
 import './UsedCars.css';
 // import usedCarHero from '../../../assets/Images/Used car.jpg';
-import usedCarHero from '../../../assets/Images/Pre-owned car copy.jpg';
+// import usedCarHero from '../../../assets/Images/Pre-owned car copy.jpg';
+import usedCarHero from '../../../assets/Images/IAW. Pre-owned cars.jpeg';
 import { useEffect, useRef } from 'react';
 
 const carCategories = [

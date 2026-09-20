@@ -69,6 +69,7 @@ const Footer = () => {
                 <p>
                     © 2009–{new Date().getFullYear()} Ideal Auto World. All Rights Reserved.
                     Some visuals may be AI-assisted and customized for Ideal Auto World.
+
                 </p>
             </div>
         </footer>

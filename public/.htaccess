@@ -1,14 +1,17 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
-  
-  # Prevent Apache from automatically appending extensions (Fixes many 404s)
-  Options -MultiViews
-  Options +FollowSymLinks
+DirectoryIndex index.html
 
-  # Handle React Router
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_FILENAME} !-l
-  RewriteRule ^ index.html [QSA,L]
+<IfModule mod_negotiation.c>
+    Options -MultiViews
 </IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+</IfModule>
+
+# Fallback for modern Apache 2.4+
+FallbackResource /index.html

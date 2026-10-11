@@ -63,7 +63,7 @@ const milestones = [
         desc: 'We launched our digital presence to reach more customers and make the car buying process even more accessible.',
     },
     {
-        year: '2025',
+        year: '2026',
         title: 'Growing Stronger',
         desc: 'Today we continue to grow with 1000+ cars sold, 8+ finance partners and a team dedicated to excellence.',
     },
@@ -209,7 +209,7 @@ const AboutUs = () => {
                         <span className="section_tag">Our Story</span>
                         <h2>From a Small Showroom to a Trusted Name</h2>
                         <p>
-                            Ideal Auto World was born in 2005 with a simple but powerful
+                            Ideal Auto World was born in 2009 with a simple but powerful
                             belief — that every person deserves to own a quality car without
                             being misled or overcharged. Starting from a small showroom with
                             a handful of vehicles, we have grown into one of the most
@@ -223,7 +223,7 @@ const AboutUs = () => {
                             thing — the trust our customers place in us.
                         </p>
                         <p>
-                            Today, with 1000+ cars sold and 500+ happy families, we continue
+                            Today, with 300+ cars sold and 300+ happy families, we continue
                             to work with the same passion and commitment we had on day one.
                             Every car we sell carries our promise of quality, transparency
                             and complete after-sale support.
@@ -295,7 +295,7 @@ const AboutUs = () => {
             <section className="about_timeline_section">
                 <div className="section_header">
                     <span className="section_tag">Our Journey</span>
-                    <h2>20 Years of Trust & Growth</h2>
+                    <h2>15 Years of Trust & Growth</h2>
                     <p>Every milestone is a reflection of the trust our customers have placed in us.</p>
                 </div>
                 <div className="about_timeline">

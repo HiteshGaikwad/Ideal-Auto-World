@@ -38,13 +38,14 @@ const ContactUs = () => {
             icon: '📞',
             title: 'Call Us',
             // lines: ['+91 97641 99974'],'
-            lines: ['Coming Soon...'],
+            // lines: ['Coming Soon...'],
+            lines: [''],
             sub: 'Mon - Sat, 10:00 AM to 7:00 PM',
         },
         {
             icon: '✉️',
             title: 'Email Us',
-            lines: ['idealautoworldinfo@gmail.com'],
+            lines: ['For enquiries: info@idealautoworld.in', 'For help: support@idealautoworld.in'],
             sub: 'We reply within 24 hours',
         },
         {
@@ -64,8 +65,8 @@ const ContactUs = () => {
 
     const faqs = [
         {
-            q: 'How do I book a test drive?',
-            a: 'Simply call us, WhatsApp us or fill the contact form and our team will schedule a test drive at your convenience.',
+            q: 'How can I get more information?',
+            a: 'Simply call us, WhatsApp us or fill the contact form and we will contact you.',
         },
         {
             q: 'Can I get a loan for a pre-owned car?',
@@ -422,7 +423,8 @@ const ContactUs = () => {
                                 </div>
                             </div>
                             <div className="map_embed">
-                                <iframe
+                                <p style={{ fontSize: '14px', fontWeight: 500 }}>Location map coming soon...</p>
+                                {/* <iframe
                                     title="Ideal Auto World Location"
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.910!2d72.877!3d19.076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA0JzMzLjYiTiA3MsKwNTInMzcuMiJF!5e0!3m2!1sen!2sin!4v1"
                                     width="100%"
@@ -431,7 +433,7 @@ const ContactUs = () => {
                                     allowFullScreen=""
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"
-                                ></iframe>
+                                ></iframe> */}
                             </div>
                             <a
                                 href="https://maps.google.com"
@@ -447,20 +449,22 @@ const ContactUs = () => {
                         <div className="social_contact_card">
                             <h4>Follow & Connect</h4>
                             <div className="social_contact_grid">
-                                <a href="#" className="social_contact_item instagram">
+                                <a href={`https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=r5uml4c`} target='_blank' className="social_contact_item instagram">
                                     <span>📸</span>
                                     <p>Instagram</p>
                                 </a>
-                                <a href="#" className="social_contact_item facebook">
+                                <a href={`https://www.facebook.com/share/1B1377GLZN/`} target='_blank' className="social_contact_item facebook">
                                     <span>👍</span>
                                     <p>Facebook</p>
                                 </a>
-                                <a href="#" className="social_contact_item whatsapp">
+                                <a href={`https://wa.me/message/Y2CLBUSFJUICD1`} target='_blank' className="social_contact_item whatsapp">
                                     <span>💬</span>
                                     <p>WhatsApp</p>
                                 </a>
                                 <a
-                                    href="mailto:info@idealautoworld.com"
+                                    href="https://mail.google.com/mail/?view=cm&fs=1&to=info@idealautoworld.in&su=Enquiry%20for%20Ideal%20Auto%20World"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     className="social_contact_item gmail"
                                 >
                                     <span>✉️</span>

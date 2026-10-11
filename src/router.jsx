@@ -7,6 +7,8 @@ import Insurance from "./Components/Pages/Insurance/Insurance";
 import Finance from "./Components/Pages/Finance/Finance";
 import AboutUs from "./Components/Pages/AboutUs/AboutUs";
 import ContactUs from "./Components/Pages/ContactUs/ContactUs";
+import PrivacyPolicy from "./Components/Pages/PrivacyPolicy/PrivacyPolicy";
+import TermsConditions from "./Components/Pages/Terms&conditions/TermsConditions";
 
 
 const router = createBrowserRouter([
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
             {
                 path: '/contact-us',
                 element: <ContactUs />
+            },
+            {
+                path: '/privacy-policy',
+                element: <PrivacyPolicy />
+            },
+            {
+                path: '/terms',
+                element: <TermsConditions />
             },
         ]
     },

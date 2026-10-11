@@ -1,0 +1,339 @@
+/* ============ Base / Wrapper ============ */
+.privacy-wrapper {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 48px 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  color: #1f2937;
+  box-sizing: border-box;
+}
+
+.privacy-container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+}
+
+/* ============ Header ============ */
+.privacy-header {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 40px 40px;
+}
+
+.privacy-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+
+.privacy-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  color: #dbeafe;
+}
+
+.privacy-subtitle {
+  margin-top: 8px;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+/* ============ Content ============ */
+.privacy-content {
+  padding: 40px;
+}
+
+.privacy-section {
+  margin-bottom: 40px;
+}
+
+.privacy-section:last-child {
+  margin-bottom: 0;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 12px 0;
+}
+
+.section-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.section-body {
+  padding-left: 38px;
+  color: #4b5563;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.section-body p {
+  margin: 0 0 12px 0;
+}
+
+.section-body p:last-child {
+  margin-bottom: 0;
+}
+
+.section-body strong {
+  color: #111827;
+}
+
+/* ============ Info Grid (Section 2) ============ */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.info-card {
+  background-color: #f9fafb;
+  border: 1px solid #f3f4f6;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.info-card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 10px 0;
+}
+
+.info-card ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.info-card ul li {
+  margin-bottom: 4px;
+}
+
+/* ============ Lists ============ */
+.styled-list {
+  margin: 8px 0;
+  padding-left: 20px;
+  color: #4b5563;
+}
+
+.styled-list li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+
+/* ============ Alert Box ============ */
+.alert-box {
+  background-color: #ecfdf5;
+  border-left: 4px solid #10b981;
+  padding: 14px 16px;
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 12px;
+}
+
+.alert-box p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #065f46;
+}
+
+/* ============ Links ============ */
+.link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* ============ Contact Section ============ */
+.contact-section {
+  padding-top: 20px;
+  border-top: 1px solid #f3f4f6;
+}
+
+.contact-card {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.contact-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 16px 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-label {
+  display: block;
+  color: #6b7280;
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.contact-value {
+  color: #1f2937;
+  font-size: 14px;
+}
+
+/* ============================================= */
+/* ============ RESPONSIVE DESIGN ============ */
+/* ============================================= */
+
+/* Tablet (max 768px) */
+@media (max-width: 768px) {
+  .privacy-wrapper {
+    padding: 32px 12px;
+  }
+
+  .privacy-header {
+    padding: 32px 24px;
+    text-align: center;
+  }
+
+  .privacy-title {
+    font-size: 28px;
+  }
+
+  .privacy-content {
+    padding: 28px 24px;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Mobile (max 600px) */
+@media (max-width: 600px) {
+  .privacy-wrapper {
+    padding: 20px 10px;
+  }
+
+  .privacy-container {
+    border-radius: 12px;
+  }
+
+  .privacy-header {
+    padding: 28px 20px;
+  }
+
+  .privacy-title {
+    font-size: 24px;
+  }
+
+  .privacy-subtitle {
+    font-size: 13px;
+  }
+
+  .privacy-content {
+    padding: 24px 18px;
+  }
+
+  .section-heading {
+    font-size: 17px;
+  }
+
+  .section-body {
+    padding-left: 0;
+    font-size: 14px;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .contact-card {
+    padding: 18px;
+  }
+
+  .contact-card h3 {
+    font-size: 16px;
+  }
+
+  .styled-list {
+    padding-left: 18px;
+  }
+
+  .alert-box p {
+    font-size: 13px;
+  }
+}
+
+/* Extra Small Devices (max 380px) */
+@media (max-width: 380px) {
+  .privacy-title {
+    font-size: 22px;
+  }
+
+  .section-heading {
+    font-size: 16px;
+  }
+
+  .section-number {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+}

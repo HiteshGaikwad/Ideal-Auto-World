@@ -36,7 +36,9 @@ const Footer = () => {
                     <a href={`https://wa.me/message/Y2CLBUSFJUICD1`} target='_blank' aria-label="WhatsApp">
                         <img src={whatsAppLogo} alt="WhatsApp" />
                     </a>
-                    <a href="#" aria-label="Gmail">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@idealautoworld.in&su=Enquiry%20for%20Ideal%20Auto%20World"
+                        target="_blank"
+                        rel="noreferrer" aria-label="Gmail">
                         <img src={gmailLogo} alt="Gmail" className="gmail_logo" />
                     </a>
                 </div>

@@ -1,17 +1,12 @@
-DirectoryIndex index.html
-
-<IfModule mod_negotiation.c>
-    Options -MultiViews
-</IfModule>
-
 <IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /
-    RewriteRule ^index\.html$ - [L]
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule . /index.html [L]
-</IfModule>
+  RewriteEngine On
+  RewriteBase /
 
-# Fallback for modern Apache 2.4+
-FallbackResource /index.html
+  # 1. If the requested URL is an existing file (like .js, .css, images), serve it directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # 2. Otherwise, route everything internally to index.html with a 200 OK status
+  RewriteRule ^ index.html [L]
+</IfModule>

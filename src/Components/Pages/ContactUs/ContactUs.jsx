@@ -127,10 +127,10 @@ const ContactUs = () => {
 
         try {
             await emailjs.sendForm(
-                'YOUR_SERVICE_ID',
-                'YOUR_TEMPLATE_ID',
+                'service_4kl85en',
+                'template_faldtw9',
                 formRef.current,
-                'YOUR_PUBLIC_KEY'
+                'CwO3Xqcliydwfpjsl'
             );
 
             setStatus({ loading: false, success: true, error: false });
@@ -404,7 +404,7 @@ const ContactUs = () => {
                                 answers to all your queries instantly.
                             </p>
                             <a
-                                href="https://wa.me/919876543210"
+                                href="https://wa.me/message/Y2CLBUSFJUICD1"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="whatsapp_btn"

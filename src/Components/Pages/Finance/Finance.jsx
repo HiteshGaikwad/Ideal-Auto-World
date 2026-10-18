@@ -104,7 +104,7 @@ const partners = [
 ];
 
 const stats = [
-    { number: '₹20Cr+', label: 'Loans Disbursed' },
+    { number: '₹2Cr+', label: 'Loans Disbursed' },
     { number: '300+', label: 'Cars Financed' },
     { number: '8+', label: 'Finance Partners' },
     { number: '98%', label: 'Approval Rate' },

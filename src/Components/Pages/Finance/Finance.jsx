@@ -108,6 +108,7 @@ const stats = [
     { number: '300+', label: 'Cars Financed' },
     { number: '8+', label: 'Finance Partners' },
     { number: '98%', label: 'Approval Rate' },
+    
 ];
 
 

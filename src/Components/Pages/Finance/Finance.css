@@ -152,7 +152,7 @@
             rgba(160, 120, 48, 0.95),
             rgba(201, 168, 76, 0.92));
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     gap: 0;
     padding: 6px 40px;

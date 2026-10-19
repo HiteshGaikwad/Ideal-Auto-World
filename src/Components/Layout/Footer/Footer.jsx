@@ -33,7 +33,7 @@ const Footer = () => {
                     <a href={`https://www.facebook.com/share/1B1377GLZN/`} target='_blank' aria-label="Facebook">
                         <img src={facebookLogo} alt="Facebook" />
                     </a>
-                    <a href={`https://wa.me/message/Y2CLBUSFJUICD1`} target='_blank' aria-label="WhatsApp">
+                    <a href="https://wa.me/+919764199974" target='_blank' aria-label="WhatsApp">
                         <img src={whatsAppLogo} alt="WhatsApp" />
                     </a>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@idealautoworld.in&su=Enquiry%20for%20Ideal%20Auto%20World"

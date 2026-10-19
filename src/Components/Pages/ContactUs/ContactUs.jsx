@@ -404,7 +404,7 @@ const ContactUs = () => {
                                 answers to all your queries instantly.
                             </p>
                             <a
-                                href="https://wa.me/message/Y2CLBUSFJUICD1"
+                                href="https://wa.me/+919764199974"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="whatsapp_btn"
@@ -457,7 +457,7 @@ const ContactUs = () => {
                                     <span>👍</span>
                                     <p>Facebook</p>
                                 </a>
-                                <a href={`https://wa.me/message/Y2CLBUSFJUICD1`} target='_blank' className="social_contact_item whatsapp">
+                                <a href="https://wa.me/+919764199974" target='_blank' className="social_contact_item whatsapp">
                                     <span>💬</span>
                                     <p>WhatsApp</p>
                                 </a>
@@ -510,7 +510,7 @@ const ContactUs = () => {
                             📞 Call Us Now
                         </a>
                         <a
-                            href="https://wa.me/919876543210"
+                            href="https://wa.me/+919764199974"
                             target="_blank"
                             rel="noreferrer"
                             className="contact_cta_secondary"
